@@ -1,0 +1,38 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    border: 10px solid darkolivegreen;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-color: darkolivegreen;
+}
+header{
+    color: rgb(255, 255, 255);
+    font-size: 5vh;
+    text-align: center;
+    background-color: darkolivegreen;
+    
+}
+main{
+    flex: auto; /*tenta ocupar todo o espaço da página*/
+    background-color: lightgreen;
+    color: gray;
+    padding: 25px;
+    font-size: 5vh;
+    border-radius: 10px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
+footer input{
+    padding: 15px;
+}
+button{
+    background-color: lightgreen;
+    color:  gray;
+}
