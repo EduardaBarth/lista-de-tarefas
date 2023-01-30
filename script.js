@@ -27,8 +27,19 @@ function render(){
     tarefas.forEach(function(tarefa){
         const li = document.createElement("li"); //criando um novo li
         li.innerText = tarefa //tradução: o texto dentro de li é a tarefa(o valor dentro do input)
-        ol.appendChild(li) // fazer a tarefa aparecer dentro da lista
+        
+        const excluir = document.createElement("button");
+        excluir.innerText = "apagar"
+        li.appendChild(excluir)
+        excluir.addEventListener("click", function(){
+            const apagar = tarefas.indexOf(tarefa)
+            tarefas.splice(apagar,1)
+            render()
+        });
+        
+        ol.appendChild(li)// fazer a tarefa aparecer dentro da lista
     })
-    
+   
 }
+
 render()
