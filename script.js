@@ -1,4 +1,4 @@
-const tarefas = [] // []-> array
+const tarefas = ['html', 'css', 'js'] // []-> array
 
 function add(){
     //const input = document.querySelector("input");
@@ -9,7 +9,7 @@ function add(){
     //    render()
     //}
     //outro jeito de fazer
-    const input = document.querySelector("input")
+    const input = document.getElementById("valor")
     const tarefa = input.value
     if (!tarefa) {
         alert("escreva uma tarefa")
