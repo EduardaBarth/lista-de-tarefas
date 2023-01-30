@@ -1,4 +1,8 @@
-const tarefas = ['html', 'css', 'js'] // []-> array
+const senha = prompt("crie a senha");
+const show = prompt("Digite a senha");
+
+if(show == senha){
+    const tarefas = ['html', 'css', 'js'] // []-> array
 
 function add(){
     //const input = document.querySelector("input");
@@ -58,3 +62,6 @@ function render(){
     })
 }
 render()
+}else{
+    alert("senha")
+}
