@@ -2,7 +2,7 @@ const senha = prompt("crie a senha");
 const show = prompt("Digite a senha");
 
 if(show == senha){
-    const tarefas = ['html', 'css', 'js'] // []-> array
+    const tarefas = [] // []-> array
 
 function add(){
     //const input = document.querySelector("input");
