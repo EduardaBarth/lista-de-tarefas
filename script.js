@@ -5,14 +5,14 @@ if(show == senha){
     const tarefas = [] // []-> array
 
 function add(){
-    //const input = document.querySelector("input");
-    //const tarefa = input.value
-    //if (tarefa) { // se o campo está vazio ele já dá falso
-    //    tarefas.push(tarefa) //adiciona nova tarefa
-    //    input.value = "" //barra do input "limpa"
-    //    render()
-    //}
-    //outro jeito de fazer
+    /*const input = document.querySelector("input");
+    const tarefa = input.value
+    if (tarefa) { // se o campo está vazio ele já dá falso
+        tarefas.push(tarefa) //adiciona nova tarefa
+        input.value = "" //barra do input "limpa"
+        render()
+    }
+    outro jeito de fazer*/
     const input = document.getElementById("valor")
     const tarefa = input.value
     if (!tarefa) {
